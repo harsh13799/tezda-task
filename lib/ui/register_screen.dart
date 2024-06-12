@@ -124,7 +124,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           onPressed: () async {
                             if (_formKey.currentState!.validate()) {
                               RegistrationResult result = await _auth.registerWithEmailAndPassword(username, email, password);
-                              if (result.error!.isNotEmpty) {
+                              if (result.error != null) {
                                 setState(() => error = result.error!);
                               } else {
                                 Navigator.pop(context);
