@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "802813202723",
+    "project_id": "tezda-task-736ab",
+    "storage_bucket": "tezda-task-736ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802813202723:android:1c59499880180440d4bc96",
+        "android_client_info": {
+          "package_name": "com.example.tezda_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRac1bqC0Lz1ozlcZwT7KCtmo-KOUyMyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
